@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+th, td {
+  padding:5px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.navbarhome {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #FFFFFF;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #FFC300;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+h1 {
+ font-family: 'Lobster', cursive;
+ font-size: 30px;
+
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.info {
+  font-size: 22px;
+  text-align: left;
+  margin: 20px;
+  padding: 10px;
+}
+
+.postlist1 {
+  margin: 20px;
+}
+
+.postlist2 {
+  list-style-type: none;
+  width: 500px;
+}
+
+h3 {
+  font: bold;
+  font-size: 20px;
+}
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+li p {
+  font: 16px;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+/*
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}*/
+ul.rig li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+input[type = "button"] {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    background: #F4D03F;
+    padding: 5px 10px 5px 10px;
+    border: solid #F4D03F 2px;
+    border-radius: 16px;
+    /*include a icon <- at the side */
+}
+
+#grab {
+  font-size: 14px;
+}
+
+
+input[type="submit"] {
+  border-radius: 16px;
+  font-size: 14px;
+  background: #F4D03F;
+  padding: 5px 10px 5px 10px;
+  border: solid #F4D03F 2px;
+
+}
+input[type="submit"]:hover {
+  background: #F7DC6F;
+  text-decoration: none;
+}
+
+ul.rig {
+  list-style: none;
+  font-size: 0px;
+  margin-left: -2.5%; /*shld match li left margin*/
+}
+
+ul.rig li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 2.5% 2.5%;
+  background: #fff;
+  font-size: 16px;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 0 0 5px #ddd;
+}
+
+ul.rig li a.active {
+  background-color: #FFC300;
+  color: white;
+}
+/*
+ul:hover {
+  background: #eee;
+  cursor: pointer;
+}*/
+/* class for 2 columns */
+ul.rig.columns-2 li {
+  width: 47.5%; /* this value +_2.5 should= 50% */
+}
+
+ul.rig.columns-3 li {
+  width: 30.83%; /* this value +_2.5 should= 33% */
+}
+ul.rig.columns-4 li {
+  width: 22.5%; /* this value +_2.5 should= 25% */
+}
+
+</style>
